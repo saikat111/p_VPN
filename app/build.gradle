@@ -20,8 +20,8 @@ android {
         applicationId "com.logichexa.pvpn"
         minSdkVersion 21
         targetSdkVersion 33
-        versionCode 8
-        versionName "8.0.8"
+        versionCode 9
+        versionName "9.0.9"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -38,14 +38,14 @@ android {
 
 
         buildConfigField "Boolean", "USE_IN_APP_PURCHASE", "true"
-        buildConfigField "String", "IN_APPKEY", "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl5uXMT/9fIpE/SZvg2/5TeAgwtaCoUhyfZTff2UZqJaUN48fhr6Rev71Jyptw8ZswyOmR+E7y6JBxpxkOgw9BSUYaYmLwzJfcVaLBlU8dceFNGIEuToICMrJdRFCKjs2EfvFHjzg6uRFUUB4K+XikYlQE3plSAxxMpuuAwFaUYTqBB/ZOQVQDZF73kA7xaksePDex+yILc8+Sm5C/tfwVxx1aj1ISZmHj2S1ZYI4zHPMquO3hfxNxYMW+2VOzBrGu2ZbUnz8v1rPmHqMOQhV7mMLKTZRi53BsZ9OgfN+ObSnNw4rrGY3iOEUtaelHax0c1Dz2diyqO61luFKaoOcuwIDAQAB\""
+        buildConfigField "String", "IN_APPKEY", "\"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt7O34VXvdQLXRCZUW6QdjhzW8+cNebwd3HSOcnB0mxb3ociVr0V0hkbzEEb+XYRfJxJ8f/V1AHaw7Hmpd9rWhTuZeYcqTdH+ouKDTBXBQQSn/VFDvBMcMKRsjBkn7e6Nh73mG8/7br/MUSM3vsP+jgj+BsyTCSwoc4j5vq5rX4h2P2uYMq4v9oYt0O0DSM+W53C5Mgj8gBt37MobUMb40w/QPjgLWcKAWzFgZ3ndu2Exjmr7jvjFxu7XhixqMVJ1YW4YEOTpFxU3HfYf1B8YOBPbwru1pIWf8/JdxomCFMkqp80EkcKAFZi6HQeu2hyf7oXLQrb47sCn5FRzf5MsnQIDAQAB\""
         buildConfigField "String", "MONTHLY", "\"oll_feature_for_onemonth\""
         buildConfigField "String", "SIX_MONTH", "\"oll_feature_for_sixmonth\""
         buildConfigField "String", "YEARLY", "\"oll_feature_for_year\""
 
         buildConfigField "Boolean", "GOOGlE_AD", "true"
-        buildConfigField "String", "GOOGLE_BANNER", "\"ca-app-pub-3940256099942544/6300978111\""
-        buildConfigField "String", "GOOGLE_INTERSTITIAL", "\"ca-app-pub-3940256099942544/1033173712\""
+        buildConfigField "String", "GOOGLE_BANNER", "\"ca-app-pub-9548309190743465/6496436951\""
+        buildConfigField "String", "GOOGLE_INTERSTITIAL", "\"ca-app-pub-9548309190743465/9382492739\""
 
         //one Signal
         manifestPlaceholders = [
