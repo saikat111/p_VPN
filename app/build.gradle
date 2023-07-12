@@ -20,8 +20,8 @@ android {
         applicationId "com.logichexa.pvpn"
         minSdkVersion 21
         targetSdkVersion 33
-        versionCode 9
-        versionName "9.0.9"
+        versionCode 13
+        versionName "13.0.13"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
@@ -44,8 +44,8 @@ android {
         buildConfigField "String", "YEARLY", "\"oll_feature_for_year\""
 
         buildConfigField "Boolean", "GOOGlE_AD", "true"
-        buildConfigField "String", "GOOGLE_BANNER", "\"ca-app-pub-9548309190743465/6496436951\""
-        buildConfigField "String", "GOOGLE_INTERSTITIAL", "\"ca-app-pub-9548309190743465/9382492739\""
+        buildConfigField "String", "GOOGLE_BANNER", "\"ca-app-pub-9312766620009008/6054660195\""
+        buildConfigField "String", "GOOGLE_INTERSTITIAL", "\"ca-app-pub-9312766620009008/1032653409\""
 
         //one Signal
         manifestPlaceholders = [
